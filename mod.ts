@@ -1,10 +1,10 @@
 import type { Module } from "/hooks/index.ts";
 
 import { Color } from "/modules/stdlib/src/webpack/misc.ts";
-import schemer from "/modules/palette-manager/schemer.ts";
+import { createSchemer } from "/modules/palette-manager/schemer.ts";
 
-export default async function (mod: Module) {
-	schemer.createSchemer(mod).register("Base", {
+export default function (mod: Module) {
+	createSchemer(mod).register("Base", {
 		text: Color.fromHex("#ffffff"),
 		subtext: Color.fromHex("#c0b4b4"),
 		base: Color.fromHex("#0a0a0f"),
