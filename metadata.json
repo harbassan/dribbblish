@@ -1,0 +1,22 @@
+{
+	"name": "dribbblish",
+	"tags": [
+		"theme"
+	],
+	"preview": "./assets/PREVIEW.png",
+	"version": "0.1.0",
+	"authors": [
+		"harbassan",
+		"khanhas"
+	],
+	"description": "Iconic and beautiful",
+	"readme": "./assets/README.md",
+	"entries": {
+		"js": "index.js",
+		"css": "index.css"
+	},
+	"dependencies": {
+		"stdlib": "0.2.2",
+		"palette-manager": "0.2.1"
+	}
+}
